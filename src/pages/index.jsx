@@ -1,12 +1,18 @@
 import React from "react";
-import Layout from "../modules/layout";
+import { Outlet } from "react-router-dom";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-function HomePage() {
+function App() {
   return (
-    <div className="bg-slate-100">
-      <Layout />
+    <div className="bg-white">
+      <div className="container max-w-full">
+        <Header />
+        <Outlet />
+        <Footer />
+      </div>
     </div>
   );
 }
 
-export default HomePage;
+export default App;
