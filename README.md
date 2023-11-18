@@ -1,8 +1,7 @@
-# React + Vite
+# Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project created with Vitejs setup along with React, Tailwind Css, Sass and React Icons
 
-Currently, two official plugins are available:
+Aimed to create a front end developer portfolio website by taking below Figma design as a reference
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Design Reference from Figma: https://www.figma.com/community/file/1116246660507537002/embed
