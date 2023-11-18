@@ -1,7 +1,8 @@
 import React from "react";
+import ProjectsContent from "../modules/projects";
 
 function Projects() {
-  return <div>Projects</div>;
+  return <ProjectsContent />;
 }
 
 export default Projects;

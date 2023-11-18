@@ -1,6 +1,7 @@
 import React from "react";
 import { FaAngleLeft, FaAngleRight, FaDiamond } from "react-icons/fa6";
 import NavMenus from "./NavMenus";
+import SocialIcons from "./SocialIcons";
 
 function NavBar() {
   return (
@@ -14,8 +15,9 @@ function NavBar() {
           </div>
         </div>
         <div className="basis-2/4">
-          <div className="flex justify-center">
+          <div className="flex justify-center space-x-12 items-center">
             <NavMenus />
+            <SocialIcons />
           </div>
         </div>
       </div>
