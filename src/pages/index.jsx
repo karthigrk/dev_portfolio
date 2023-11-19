@@ -5,10 +5,12 @@ import Footer from "../components/Footer";
 
 function App() {
   return (
-    <div className="bg-white">
-      <div className="container max-w-full">
+    <div className="bg-white min-h-full">
+      <div className="flex flex-col container min-w-full min-h-screen">
         <Header />
-        <Outlet />
+        <main className="flex-auto">
+          <Outlet />
+        </main>
         <Footer />
       </div>
     </div>

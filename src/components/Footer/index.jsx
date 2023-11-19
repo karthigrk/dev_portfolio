@@ -3,7 +3,7 @@ import NavMenus from "../Nav/NavMenus";
 
 function Footer() {
   return (
-    <div className="flex flex-row items-center h-20 my-4 text-sm border-t-2 border-slate-300">
+    <div className="flex flex-row items-center h-16 mt-4 text-sm border-t-2 border-slate-300">
       <div className="basis-3/4 px-3">
         <NavMenus />
       </div>
